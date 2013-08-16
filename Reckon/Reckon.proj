@@ -3,7 +3,7 @@
   <PropertyGroup>
     <ProjectGuid>3016f513-6328-46ba-aaff-2c073e3c05b5</ProjectGuid>
     <ProjectTypeGuids>{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}</ProjectTypeGuids>
-    <AppIdentifier>com.telerik.Reckon</AppIdentifier>
+    <AppIdentifier>com.reckon.Reckon</AppIdentifier>
     <ProjectName>Reckon</ProjectName>
     <IsRunnable>true</IsRunnable>
     <TemplateAppName>Cordova270</TemplateAppName>
@@ -11,6 +11,11 @@
     <DeviceOrientations>Portrait;Landscape</DeviceOrientations>
     <iOSStatusBarStyle>Default</iOSStatusBarStyle>
     <AndroidHardwareAcceleration>false</AndroidHardwareAcceleration>
+    <BundleVersion>1.0</BundleVersion>
+    <iOSDisplayName />
+    <iOSDeviceFamily>1;2</iOSDeviceFamily>
+    <iOSBackgroundMode />
+    <AndroidVersionCode>1</AndroidVersionCode>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\Telerik\ICE\Tools\Mobile\MobileTools.targets" />
 </Project>
