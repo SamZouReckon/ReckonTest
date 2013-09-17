@@ -1,4 +1,4 @@
-/*95845a7eecf49c28748cd399c2ec3b96207eaace*//**
+/*06d61ebec4a1e5a1e5de44f8f004f8920ce83b8f*//**
  * @class Global_CSS
  * Global CSS variables and mixins of Sencha Touch's Default Theme.
  */
@@ -5538,6 +5538,9 @@ body.x-desktop {
 .rm-flatfield input::-webkit-input-placeholder {
   color: #A0A0A0;
   font-weight: normal; }
+
+.rm-flatfield-last {
+  border-bottom: 1px solid #DBDBDB !important; }
 
 /*.customername-icon.x-field{
 	@include rm_flatfield("../images/icons/rm-customer.png");
