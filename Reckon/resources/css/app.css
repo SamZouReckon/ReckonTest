@@ -1,4 +1,4 @@
-/*06d61ebec4a1e5a1e5de44f8f004f8920ce83b8f*//**
+/*908b5c761eac39057bf8c0d1f0217f8a6b3dff74*//**
  * @class Global_CSS
  * Global CSS variables and mixins of Sencha Touch's Default Theme.
  */
@@ -5512,12 +5512,13 @@ body.x-desktop {
   background-position-y: 50%; }
 .rm-emailpasswordfield.x-field .x-form-label {
   color: #646464;
-  background-color: #FFFFFF;
+  background-color: inherit;
   text-align: left;
   margin-left: 52px; }
 .rm-emailpasswordfield.x-field .x-input-el {
   text-align: right;
   color: #969696;
+  background-color: inherit;
   font-size: 0.8em;
   padding-top: 0.9em;
   padding-right: 0.6em; }
@@ -5527,10 +5528,11 @@ body.x-desktop {
   border-top: 1px solid #DBDBDB; }
 .rm-flatfield .x-form-label {
   color: #646464;
-  background: #FFFFFF; }
+  background-color: inherit; }
 .rm-flatfield .x-input-el {
   text-align: right;
   color: #787878;
+  background-color: inherit;
   font-size: 0.8em;
   font-weight: bold;
   padding-top: 0.9em;
@@ -5541,6 +5543,9 @@ body.x-desktop {
 
 .rm-flatfield-last {
   border-bottom: 1px solid #DBDBDB !important; }
+
+.rm-field-warning {
+  background: #F6F0DA; }
 
 /*.customername-icon.x-field{
 	@include rm_flatfield("../images/icons/rm-customer.png");
@@ -6167,10 +6172,11 @@ body.x-desktop {
   margin-right: 50px; }
 .rm-notes-icon.x-field .x-form-label {
   color: #646464;
-  background: #FFFFFF; }
+  background-color: inherit; }
 .rm-notes-icon.x-field .x-input-el {
   text-align: right;
   color: #787878;
+  background-color: inherit;
   font-size: 0.8em;
   font-weight: bold;
   padding-top: 0.9em;
@@ -6734,3 +6740,32 @@ rm-emailinvoicebackground {
   text-shadow: none;
   font-weight: bold;
   font-size: 80%; }
+
+.x-field-clearable.clear-icon-hidden .x-field-input {
+  padding-right: 0 !important; }
+.x-field-clearable.clear-icon-hidden .x-field-input .x-clear-icon {
+  display: none; }
+
+.rm-cursor-blinkbg .x-field-mask {
+  display: block !important;
+  background: #787878;
+  width: 2px;
+  height: 1em;
+  position: absolute;
+  top: 13px;
+  right: 7px;
+  bottom: 0;
+  padding-right: 2px;
+  left: initial !important; }
+
+.rm-keypad-topbar {
+  border-radius: 0;
+  border: 1px solid #989898;
+  margin: 0;
+  background: #3E3E3E;
+  color: #FBFBFB;
+  font-size: 0.8em;
+  padding-left: 0px;
+  padding-right: 0px; }
+.rm-keypad-topbar .x-button-label, .rm-keypad-topbar .x-badge, .rm-keypad-topbar .x-hasbadge .x-badge, .x-hasbadge .rm-keypad-topbar .x-badge {
+  font-weight: normal; }
