@@ -1,4 +1,4 @@
-/*55f3d38997615ddd60767419067b8c756a745c5b*//**
+/*b214c59f0519f047ed94e71b52776f286618f040*//**
  * @class Global_CSS
  * Global CSS variables and mixins of Sencha Touch's Default Theme.
  */
@@ -6890,3 +6890,6 @@ rm-emailinvoicebackground {
 .rm-flatfield-disabled input::-webkit-input-placeholder {
   color: #C0C9D2;
   font-weight: normal; }
+
+.rm-mask-obscured {
+  background: black; }
