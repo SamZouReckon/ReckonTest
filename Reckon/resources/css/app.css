@@ -1,4 +1,4 @@
-/*762257ac6176ce4b57eb2e6919a30822ed8588c6*//**
+/*979674a541d947d9a866a672fb289e3fcdfe067c*//**
  * @class Global_CSS
  * Global CSS variables and mixins of Sencha Touch's Default Theme.
  */
@@ -673,9 +673,9 @@ html, body {
  * @class Ext.layout.Box
  */
 .x-layout-box {
+  display: flex;
   display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex; }
+  display: -ms-flexbox; }
 .x-layout-box.x-horizontal {
   -webkit-box-orient: horizontal !important;
   -ms-flex-direction: row !important;
@@ -689,9 +689,9 @@ html, body {
 .x-layout-box.x-vertical > .x-layout-box-item.x-flexed {
   min-height: 0 !important; }
 .x-layout-box > .x-layout-box-item {
+  display: flex !important;
   display: -webkit-box !important;
-  display: -ms-flexbox !important;
-  display: flex !important; }
+  display: -ms-flexbox !important; }
 .x-layout-box.x-align-start {
   -webkit-box-align: start;
   -ms-flex-align: start;
@@ -785,9 +785,9 @@ html, body {
  * @class Ext.layout.Dock
  */
 .x-dock {
+  display: flex;
   display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex; }
+  display: -ms-flexbox; }
 .x-dock > .x-dock-body {
   overflow: hidden; }
 .x-dock.x-sized, .x-dock.x-sized > .x-dock-body > *, .x-dock.x-sized > .x-dock-body > .x-body > .x-inner {
@@ -800,9 +800,9 @@ html, body {
   left: 0; }
 .x-dock.x-sized > .x-dock-body {
   position: relative;
+  display: flex;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
   -webkit-box-flex: 1;
   -ms-flex: 1 0 auto;
   flex: 1 0 auto;
@@ -812,9 +812,9 @@ html, body {
   height: 100%; }
 .x-dock.x-unsized > .x-dock-body, .x-dock.x-stretched > .x-dock-body {
   position: relative;
+  display: flex;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
   -webkit-box-flex: 1;
   -ms-flex: 1 0 auto;
   flex: 1 0 auto;
@@ -838,9 +838,9 @@ html, body {
   -ms-flex-direction: row !important;
   flex-direction: row !important; }
 .x-dock.x-dock-horizontal > .x-dock-item {
+  display: flex;
   display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex; }
+  display: -ms-flexbox; }
 .x-dock.x-dock-horizontal > .x-dock-item.x-sized > .x-inner, .x-dock.x-dock-horizontal > .x-dock-item.x-sized > .x-body {
   width: auto;
   height: auto;
@@ -873,16 +873,16 @@ html, body {
  * @class Ext.layout.Fit
  */
 .x-stretched.x-container {
+  display: flex;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
   -webkit-box-orient: vertical;
   -ms-flex-direction: column;
   flex-direction: column; }
 .x-stretched.x-container > .x-inner, .x-stretched.x-container > .x-body, .x-stretched.x-container > .x-body > .x-inner {
+  display: flex;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
   -webkit-box-flex: 1;
   -ms-flex: 1 0 auto;
   flex: 1 0 auto;
@@ -892,9 +892,9 @@ html, body {
   min-height: 0px; }
 
 .x-layout-fit.x-stretched > .x-layout-fit-item {
+  display: flex;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
   -webkit-box-flex: 1;
   -ms-flex: 1 0 auto;
   flex: 1 0 auto;
@@ -926,9 +926,9 @@ html, body {
   right: 0;
   bottom: 0;
   left: 0;
+  display: flex;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -1083,9 +1083,9 @@ html, body {
  * @class Ext.Button
  */
 .x-button {
+  display: flex;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -1558,9 +1558,9 @@ input, textarea {
   right: 0;
   height: 100%;
   z-index: 10;
+  display: flex;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -1581,9 +1581,9 @@ input, textarea {
   font-size: .95em;
   font-weight: bold; }
 .x-mask .x-loading-spinner-outer {
+  display: flex;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
   -webkit-box-orient: vertical;
   -ms-flex-direction: column;
   flex-direction: column;
@@ -1745,9 +1745,9 @@ audio {
   -webkit-box-flex: 1;
   -ms-flex: 1 0 auto;
   flex: 1 0 auto;
+  display: flex;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
@@ -1958,9 +1958,9 @@ audio {
   text-align: center;
   pointer-events: none;
   font-size: #333333;
+  display: flex;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
   -webkit-box-orient: vertical;
   -ms-flex-direction: column;
   flex-direction: column;
@@ -2058,9 +2058,9 @@ audio {
   text-overflow: ellipsis; }
 
 .x-field {
+  display: flex;
   display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex; }
+  display: -ms-flexbox; }
 .x-field .x-field-input {
   position: relative;
   min-width: 3.7em; }
@@ -2115,9 +2115,9 @@ audio {
   display: inline; }
 
 .x-spinner .x-component-outer {
+  display: flex;
   display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex; }
+  display: -ms-flexbox; }
 .x-spinner .x-component-outer > * {
   width: auto; }
 .x-spinner .x-field-input {
@@ -2223,9 +2223,9 @@ input[type="search"]::-webkit-search-cancel-button {
   right: 0;
   bottom: 0;
   z-index: 3;
+  display: flex;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
   -webkit-box-align: stretch;
   -ms-flex-align: stretch;
   align-items: stretch;
@@ -2296,9 +2296,9 @@ input[type="search"]::-webkit-search-cancel-button {
  * @class Ext.plugin.PullRefresh
  */
 .x-list-pullrefresh {
+  display: flex;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
   -webkit-box-orient: horizontal;
   -ms-flex-direction: row;
   flex-direction: row;
@@ -4934,10 +4934,12 @@ body.x-desktop {
   height: 46px;
   text-transform: capitalize; }
 .touch-calendar-view thead tr#touchcalendernav th:nth-child(1) {
-  background: url(../images/larr.png) center center no-repeat;
+  background: url(../images/larr.svg) center center no-repeat;
+  background-size: 7px;
   cursor: pointer; }
 .touch-calendar-view thead tr#touchcalendernav th:nth-child(5) {
-  background: url(../images/rarr.png) center center no-repeat;
+  background: url(../images/rarr.svg) center center no-repeat;
+  background-size: 7px;
   cursor: pointer; }
 .touch-calendar-view thead tr#touchcalendernav th span {
   font-size: 18px;
@@ -4954,7 +4956,7 @@ body.x-desktop {
   height: 8px; }
 
 .topTip {
-  background-image: url("../images/rm-swipebar.png");
+  background-image: url("../images/rm-swipebar.svg");
   background-position: center 2px;
   background-repeat: repeat-y;
   height: 10px;
@@ -4990,11 +4992,11 @@ body.x-desktop {
   margin-bottom: 10px; }
 
 .rm-greendot {
-  background-image: url("../images/greenDot.png");
+  background-image: url("../images/greenDot.svg");
   padding-left: 18px; }
 
 .rm-reddoticon, .rm-reddotright {
-  background-image: url("../images/redDot.png"); }
+  background-image: url("../images/redDot.svg"); }
 
 .rm-plusicon, .rm-minusicon, .rm-greendot, .rm-reddoticon {
   background-position: left center;
@@ -5156,10 +5158,11 @@ body.x-desktop {
   color: #969696; }
 
 .rm-budgetoverviewarrow {
-  background-image: url("../images/icons/rm-listitem-arrow.png");
+  background-image: url("../images/icons/rm-listitem-arrow.svg");
   background-repeat: no-repeat;
   background-position-x: right;
   background-position-y: 65%;
+  background-size: 10px 20px;
   margin-right: 15px; }
 
 /*@include sencha-panel;
@@ -5179,6 +5182,19 @@ body.x-desktop {
 .x-android .x-input-el {
   -webkit-text-fill-color: #787878 !important;
   padding-top: 1.6em !important; }
+.x-android .x-input-el .rm-togglefield-off .x-field-input {
+  padding-top: 1em !important; }
+.x-android .x-input-el .rm-togglefield-on .x-field-input {
+  padding-top: 1em !important; }
+
+.x-android .rm-togglefield-off .x-input-el {
+  padding-top: 1.1em !important; }
+
+.x-android .rm-togglefield-on .x-input-el {
+  padding-top: 1.1em !important; }
+
+.x-android .x-field-input .x-clear-icon {
+  margin-top: -1.1em; }
 
 .x-toolbar-rm-sortsearch-topbar {
   background-image: none;
@@ -5363,9 +5379,7 @@ body.x-desktop {
 .x-picker .x-toolbar .x-button > * {
   overflow: visible; }
 .x-picker .x-toolbar .x-button .x-button-icon {
-  -webkit-mask-size: 1.4em;
-  width: 1.4em;
-  height: 1.4em; }
+  background-size: 18px; }
 .x-picker .x-toolbar .x-button.x-button-pressing, .x-picker .x-toolbar .x-button.x-button-pressed {
   background: none; }
 .x-picker .x-toolbar .x-button.x-button-pressing .x-button-icon.x-button-mask, .x-picker .x-toolbar .x-button.x-button-pressed .x-button-icon.x-button-mask {
@@ -5373,13 +5387,13 @@ body.x-desktop {
   background-color: white; }
 .x-picker .x-toolbar .x-button-normal {
   text-transform: uppercase;
-  background: url(../images/rm-pickerbtn-border.png) repeat-y right top;
+  background: url(../images/rm-pickerbtn-border.svg) repeat-y right top;
   margin-left: -5px;
   margin-right: 5px; }
 .x-picker .x-toolbar .x-button-action {
   width: 3.8em !important;
   text-transform: uppercase;
-  background: url(../images/rm-pickerbtn-border.png) repeat-y left top;
+  background: url(../images/rm-pickerbtn-border.svg) repeat-y left top;
   margin-left: 5px;
   margin-right: -5px; }
 
@@ -5392,15 +5406,14 @@ body.x-desktop {
   height: 2.6em;
   margin: 0;
   border-radius: 0;
-  background: url(../images/rm-topbar-border.png) repeat-y right top;
+  background: url(../images/rm-topbar-border.svg) repeat-y right top;
   margin-left: -5px;
-  margin-right: 5px; }
+  margin-right: 5px;
+  padding-left: 7px; }
 .x-button.x-button-rm_topbarbuttonleft > *, .x-toolbar .x-button.x-button-rm_topbarbuttonleft > * {
   overflow: visible; }
 .x-button.x-button-rm_topbarbuttonleft .x-button-icon, .x-toolbar .x-button.x-button-rm_topbarbuttonleft .x-button-icon {
-  -webkit-mask-size: 1.4em;
-  width: 1.4em;
-  height: 1.4em; }
+  background-size: 18px; }
 .x-button.x-button-rm_topbarbuttonleft.x-button-pressing, .x-button.x-button-rm_topbarbuttonleft.x-button-pressed, .x-toolbar .x-button.x-button-rm_topbarbuttonleft.x-button-pressing, .x-toolbar .x-button.x-button-rm_topbarbuttonleft.x-button-pressed {
   background: none; }
 .x-button.x-button-rm_topbarbuttonleft.x-button-pressing .x-button-icon.x-button-mask, .x-button.x-button-rm_topbarbuttonleft.x-button-pressed .x-button-icon.x-button-mask, .x-toolbar .x-button.x-button-rm_topbarbuttonleft.x-button-pressing .x-button-icon.x-button-mask, .x-toolbar .x-button.x-button-rm_topbarbuttonleft.x-button-pressed .x-button-icon.x-button-mask {
@@ -5419,16 +5432,14 @@ body.x-desktop {
   height: 2.6em;
   margin: 0;
   border-radius: 0;
-  background: url(../images/rm-topbar-border.png) repeat-y left top;
+  background: url(../images/rm-topbar-border.svg) repeat-y left top;
   margin-left: 5px;
   margin-right: -5px;
   width: 3.4em; }
 .x-button.x-button-rm_topbarbuttonright > *, .x-toolbar .x-button.x-button-rm_topbarbuttonright > * {
   overflow: visible; }
 .x-button.x-button-rm_topbarbuttonright .x-button-icon, .x-toolbar .x-button.x-button-rm_topbarbuttonright .x-button-icon {
-  -webkit-mask-size: 1.4em;
-  width: 1.4em;
-  height: 1.4em; }
+  background-size: 18px; }
 .x-button.x-button-rm_topbarbuttonright.x-button-pressing, .x-button.x-button-rm_topbarbuttonright.x-button-pressed, .x-toolbar .x-button.x-button-rm_topbarbuttonright.x-button-pressing, .x-toolbar .x-button.x-button-rm_topbarbuttonright.x-button-pressed {
   background: none; }
 .x-button.x-button-rm_topbarbuttonright.x-button-pressing .x-button-icon.x-button-mask, .x-button.x-button-rm_topbarbuttonright.x-button-pressed .x-button-icon.x-button-mask, .x-toolbar .x-button.x-button-rm_topbarbuttonright.x-button-pressing .x-button-icon.x-button-mask, .x-toolbar .x-button.x-button-rm_topbarbuttonright.x-button-pressed .x-button-icon.x-button-mask {
@@ -5447,15 +5458,13 @@ body.x-desktop {
   height: 2.6em;
   margin: 0;
   border-radius: 0;
-  background: url(../images/rm-maintopbar-border.png) repeat-y right top;
+  background: url(../images/rm-maintopbar-border.svg) repeat-y right top;
   margin-left: -5px;
   margin-right: 5px; }
 .x-button.x-button-rm_maintopbarbuttonleft > *, .x-toolbar .x-button.x-button-rm_maintopbarbuttonleft > * {
   overflow: visible; }
 .x-button.x-button-rm_maintopbarbuttonleft .x-button-icon, .x-toolbar .x-button.x-button-rm_maintopbarbuttonleft .x-button-icon {
-  -webkit-mask-size: 1.4em;
-  width: 1.4em;
-  height: 1.4em; }
+  background-size: 18px; }
 .x-button.x-button-rm_maintopbarbuttonleft.x-button-pressing, .x-button.x-button-rm_maintopbarbuttonleft.x-button-pressed, .x-toolbar .x-button.x-button-rm_maintopbarbuttonleft.x-button-pressing, .x-toolbar .x-button.x-button-rm_maintopbarbuttonleft.x-button-pressed {
   background: none; }
 .x-button.x-button-rm_maintopbarbuttonleft.x-button-pressing .x-button-icon.x-button-mask, .x-button.x-button-rm_maintopbarbuttonleft.x-button-pressed .x-button-icon.x-button-mask, .x-toolbar .x-button.x-button-rm_maintopbarbuttonleft.x-button-pressing .x-button-icon.x-button-mask, .x-toolbar .x-button.x-button-rm_maintopbarbuttonleft.x-button-pressed .x-button-icon.x-button-mask {
@@ -5474,16 +5483,14 @@ body.x-desktop {
   height: 2.6em;
   margin: 0;
   border-radius: 0;
-  background: url(../images/rm-maintopbar-border.png) repeat-y left top;
+  background: url(../images/rm-maintopbar-border.svg) repeat-y left top;
   margin-left: 5px;
   margin-right: -5px;
   width: 3.4em; }
 .x-button.x-button-rm_maintopbarbuttonright > *, .x-toolbar .x-button.x-button-rm_maintopbarbuttonright > * {
   overflow: visible; }
 .x-button.x-button-rm_maintopbarbuttonright .x-button-icon, .x-toolbar .x-button.x-button-rm_maintopbarbuttonright .x-button-icon {
-  -webkit-mask-size: 1.4em;
-  width: 1.4em;
-  height: 1.4em; }
+  background-size: 18px; }
 .x-button.x-button-rm_maintopbarbuttonright.x-button-pressing, .x-button.x-button-rm_maintopbarbuttonright.x-button-pressed, .x-toolbar .x-button.x-button-rm_maintopbarbuttonright.x-button-pressing, .x-toolbar .x-button.x-button-rm_maintopbarbuttonright.x-button-pressed {
   background: none; }
 .x-button.x-button-rm_maintopbarbuttonright.x-button-pressing .x-button-icon.x-button-mask, .x-button.x-button-rm_maintopbarbuttonright.x-button-pressed .x-button-icon.x-button-mask, .x-toolbar .x-button.x-button-rm_maintopbarbuttonright.x-button-pressing .x-button-icon.x-button-mask, .x-toolbar .x-button.x-button-rm_maintopbarbuttonright.x-button-pressed .x-button-icon.x-button-mask {
@@ -5506,18 +5513,19 @@ body.x-desktop {
 .rm-emailpasswordfield.x-field {
   background: white;
   border-top: 1px solid #DBDBDB;
-  background-image: url("../images/icons/rm-email.png") !important;
+  background-image: url("../images/icons/rm-email.svg") !important;
   background-repeat: no-repeat;
   background-position-x: 5%;
   background-position-y: 50%; }
 .rm-emailpasswordfield.x-field .x-form-label {
   color: #646464;
-  background-color: #FFFFFF;
+  background-color: inherit;
   text-align: left;
   margin-left: 52px; }
 .rm-emailpasswordfield.x-field .x-input-el {
   text-align: right;
   color: #969696;
+  background-color: inherit;
   font-size: 0.8em;
   padding-top: 0.9em;
   padding-right: 0.6em; }
@@ -5527,10 +5535,11 @@ body.x-desktop {
   border-top: 1px solid #DBDBDB; }
 .rm-flatfield .x-form-label {
   color: #646464;
-  background: #FFFFFF; }
+  background-color: inherit; }
 .rm-flatfield .x-input-el {
   text-align: right;
   color: #787878;
+  background-color: inherit;
   font-size: 0.8em;
   font-weight: bold;
   padding-top: 0.9em;
@@ -5538,6 +5547,19 @@ body.x-desktop {
 .rm-flatfield input::-webkit-input-placeholder {
   color: #A0A0A0;
   font-weight: normal; }
+
+.rm-flatfield-last {
+  border-bottom: 1px solid #DBDBDB !important; }
+
+.rm-field-input-formatted {
+  position: absolute;
+  top: 0;
+  background: white !important; }
+
+.rm-field-warning {
+  background: #F6F0DA; }
+.rm-field-warning .rm-field-input-formatted {
+  background: #F6F0DA !important; }
 
 /*.customername-icon.x-field{
 	@include rm_flatfield("../images/icons/rm-customer.png");
@@ -5567,10 +5589,11 @@ body.x-desktop {
     @include rm_flatfield("../images/icons/rm-description.png");
 }*/
 .rm-arrowimgbtn {
-  background-image: url("../images/icons/rm-btn-arrow.png") !important;
+  background-image: url("../images/icons/rm-btn-arrow.svg") !important;
   background-repeat: no-repeat;
   background-position-x: 95%;
   background-position-y: 50%;
+  background-size: 10px 20px;
   background-color: #EBEBEB;
   color: #646464;
   padding: 5px;
@@ -5617,7 +5640,7 @@ body.x-desktop {
 .rm-dropdown .x-button-rm_btnaslistrow {
   border-radius: 0;
   border: none;
-  background: url(../images/rm-menuitem-topborder.png) repeat-x left top; }
+  background: url(../images/rm-menuitem-topborder.svg) repeat-x left top; }
 .rm-dropdown .x-button-label, .rm-dropdown .x-badge, .rm-dropdown .x-hasbadge .x-badge, .x-hasbadge .rm-dropdown .x-badge {
   text-overflow: ellipsis;
   text-align: left;
@@ -5637,7 +5660,7 @@ body.x-desktop {
 .rm-dropdownmain .x-button-rm_btnaslistrow {
   border-radius: 0;
   border: none;
-  background: url(../images/rm-menuitem-topborder.png) repeat-x left top; }
+  background: url(../images/rm-menuitem-topborder.svg) repeat-x left top; }
 .rm-dropdownmain .x-button-label, .rm-dropdownmain .x-badge, .rm-dropdownmain .x-hasbadge .x-badge, .x-hasbadge .rm-dropdownmain .x-badge {
   text-overflow: ellipsis;
   text-align: right;
@@ -5646,6 +5669,15 @@ body.x-desktop {
   display: block;
   overflow: hidden;
   padding: 10px; }
+
+.x-button-rm_btnaslistrowmainmenu {
+  border-radius: 0;
+  border: none;
+  background: #000000;
+  color: #FFFFFF;
+  border-bottom: 1px solid #4F4F4F;
+  padding: 0px;
+  margin: 0px; }
 
 .x-button-rm_btnaslistrowmain {
   border-radius: 0;
@@ -5670,9 +5702,7 @@ body.x-desktop {
 .x-toolbar .x-button.x-button-rm_dropdownbtn > * {
   overflow: visible; }
 .x-toolbar .x-button.x-button-rm_dropdownbtn .x-button-icon {
-  -webkit-mask-size: 1.4em;
-  width: 1.4em;
-  height: 1.4em; }
+  background-size: 18px; }
 .x-toolbar .x-button.x-button-rm_dropdownbtn.x-button-pressing, .x-toolbar .x-button.x-button-rm_dropdownbtn.x-button-pressed {
   background: none; }
 .x-toolbar .x-button.x-button-rm_dropdownbtn.x-button-pressing .x-button-icon.x-button-mask, .x-toolbar .x-button.x-button-rm_dropdownbtn.x-button-pressed .x-button-icon.x-button-mask {
@@ -5731,10 +5761,11 @@ body.x-desktop {
   border-radius: 0;
   border: 0;
   margin: 0;
-  background-image: url("../images/icons/btn_arrow.png"), url(../images/rm-menuitem-topborder.png);
+  background-image: url("../images/icons/rm-listitem-arrow.svg"), url(../images/rm-menuitem-topborder.svg);
   background-repeat: no-repeat, repeat-x;
   background-position-x: 96%,0%;
   background-position-y: 50%,0%;
+  background-size: 10px 20px, 4px;
   height: 2.6em; }
 .rm-swipecontainer .x-button-label, .rm-swipecontainer .x-badge, .rm-swipecontainer .x-hasbadge .x-badge, .x-hasbadge .rm-swipecontainer .x-badge {
   text-overflow: ellipsis;
@@ -5759,9 +5790,10 @@ body.x-desktop {
   font-size: 100%; }
 
 .rm-flatkeypad-crossbtn {
-  background-image: url("../images/icons/rm-keypad-cross.png");
+  background-image: url("../images/icons/rm-keypad-cross.svg");
   background-repeat: no-repeat;
-  background-position: center; }
+  background-position: center;
+  background-size: 28px; }
 
 .rm-flatbuttonwitharrow {
   border-radius: 0;
@@ -5847,10 +5879,11 @@ body.x-desktop {
   border-radius: 0;
   border: 0;
   margin: 0;
-  background-image: url("../images/icons/btn_arrow.png"), url(../images/rm-menuitem-topborder.png);
+  background-image: url("../images/icons/rm-listitem-arrow.svg"), url(../images/rm-menuitem-topborder.svg);
   background-repeat: no-repeat, repeat-x;
   background-position-x: 95%,0%;
   background-position-y: 50%,0%;
+  background-size: 10px 20px, 4px;
   height: 2.6em; }
 .rm-popup .x-button-rm_btnaslistrow .x-button-label, .rm-popup .x-button-rm_btnaslistrow .x-badge, .rm-popup .x-button-rm_btnaslistrow .x-hasbadge .x-badge, .x-hasbadge .rm-popup .x-button-rm_btnaslistrow .x-badge {
   text-overflow: ellipsis;
@@ -5865,7 +5898,8 @@ body.x-desktop {
   width: 31px;
   height: 31px;
   border: 0;
-  background: url("../images/icons/rm-popupcross.png") no-repeat;
+  background: url("../images/icons/rm-popupcross.svg") no-repeat;
+  background-size: 31px;
   top: -14px;
   right: -14px; }
 .rm-popup .x-component-outer {
@@ -5876,7 +5910,7 @@ body.x-desktop {
   color: #FFFFFF;
   border: 0;
   border-radius: 0;
-  background-image: url(../images/rm-menuitem-topborder.png);
+  background-image: url(../images/rm-menuitem-topborder.svg);
   background-repeat: repeat-x;
   background-position: top left; }
 .rm-popup .x-field-radio .x-input-el {
@@ -5885,7 +5919,7 @@ body.x-desktop {
   		color: #4F4F4F;
   		border:0;
   		border-radius:0;
-          background-image: url(../images/rm-menuitem-topborder.png);
+          background-image: url(../images/rm-menuitem-topborder.svg);
           background-repeat:repeat-x;
           background-position:top left;*/ }
 .rm-popup .x-field-radio .x-input-el:checked:before {
@@ -5979,7 +6013,8 @@ body.x-desktop {
   padding-right: 20px; }
 
 .rm-nextgrayarrow {
-  background-image: url("../images/icons/rm-listitem-arrow.png"); }
+  background-image: url("../images/icons/rm-listitem-arrow.svg");
+  background-size: 10px 20px; }
 
 .rm-bill-listcls .rm-booknametext {
   color: #969696;
@@ -5987,7 +6022,7 @@ body.x-desktop {
   font-weight: normal; }
 
 .rm-reddoticon, .rm-reddotright {
-  background-image: url("../images/redDot.png");
+  background-image: url("../images/redDot.svg");
   padding-left: 18px; }
 
 .rm-plusicon {
@@ -6101,16 +6136,17 @@ body.x-desktop {
   font-size: 86%; }
 
 .rm-checkbox-on {
-  background-image: url("../images/icons/checkbox-on.png"); }
+  background-image: url("../images/icons/checkbox-on.svg"); }
 
 .rm-checkbox-off {
-  background-image: url("../images/icons/checkbox-off.png"); }
+  background-image: url("../images/icons/checkbox-off.svg"); }
 
 .rm-checkbox {
   background-position: center;
   background-repeat: no-repeat;
-  width: 20px;
-  height: 20px; }
+  background-size: 21px;
+  width: 23px;
+  height: 23px; }
 
 .rm-checkbox-label {
   color: #969696;
@@ -6164,10 +6200,11 @@ body.x-desktop {
   margin-right: 50px; }
 .rm-notes-icon.x-field .x-form-label {
   color: #646464;
-  background: #FFFFFF; }
+  background-color: inherit; }
 .rm-notes-icon.x-field .x-input-el {
   text-align: right;
   color: #787878;
+  background-color: inherit;
   font-size: 0.8em;
   font-weight: bold;
   padding-top: 0.9em;
@@ -6177,9 +6214,10 @@ body.x-desktop {
   font-weight: normal; }
 
 .rm-note-icon {
-  background-image: url("../images/icons/rm-note.png");
+  background-image: url("../images/icons/rm-note.svg");
   background-position: center;
   background-repeat: no-repeat;
+  background-size: 16px;
   width: 22px;
   height: 26px;
   margin-right: 2px; }
@@ -6215,10 +6253,11 @@ rm-emailinvoicebackground {
   background: #F8F8F8; }
 
 .rm-emailscreenbtn {
-  background-image: url("../images/icons/rm-btn-arrow.png") !important;
+  background-image: url("../images/icons/rm-btn-arrow.svg") !important;
   background-repeat: no-repeat;
   background-position-x: 75%;
   background-position-y: 50%;
+  background-size: 10px 20px;
   background-color: #EBEBEB;
   padding: 0.3em;
   border-radius: 0;
@@ -6235,26 +6274,28 @@ rm-emailinvoicebackground {
   color: #646464; }
 
 .rm-emailcheckmark {
-  background-image: url("../images/icons/rm-emailtickmark.png") !important;
+  background-image: url("../images/icons/rm-emailtickmark.svg") !important;
   background-repeat: no-repeat;
   background-color: #A1CF79;
+  background-size: 30px;
   margin: 3px 10px 3px 10px; }
 
 .rm-emailpositivepanel {
   background-color: #A1CF79;
-  padding: 20px 10px 20px 15px; }
+  padding: 20px 10px; }
 .rm-emailpositivepanel .x-innerhtml {
   color: #FFFFFF; }
 
 .rm-emailcrossmark {
-  background-image: url("../images/icons/rm-emailcrossmark.png") !important;
+  background-image: url("../images/icons/rm-emailcrossmark.svg") !important;
   background-repeat: no-repeat;
   background-color: #ED3D57;
+  background-size: 28px;
   margin: 3px 10px 3px 10px; }
 
 .rm-emailnegativepanel {
   background-color: #ED3D57;
-  padding: 20px 10px 20px 15px; }
+  padding: 20px 10px; }
 .rm-emailnegativepanel .x-innerhtml {
   color: #FFFFFF; }
 
@@ -6268,7 +6309,7 @@ rm-emailinvoicebackground {
   text-align: center; }
 
 .rm-pincode-entered {
-  background: url("../images/icons/rm-pinmask.png") no-repeat center; }
+  background: url("../images/icons/rm-pinmask.svg") no-repeat center; }
 
 .rm-dashboard {
   background: #FFFFFF;
@@ -6301,13 +6342,15 @@ rm-emailinvoicebackground {
   border-radius: 0; }
 
 .rm-module-close-btn {
-  background-image: url("../images/rm-module-close.png") !important;
+  background: none;
+  background-image: url("../images/rm-module-close.svg") !important;
   background-repeat: no-repeat;
+  background-size: 40px;
   border: 0;
   border-radius: 0;
-  width: 50px;
-  height: 50px;
-  margin-top: 15px; }
+  width: 42px;
+  height: 42px;
+  margin-top: 16px; }
 
 .rm-module-panel {
   border-top: 2px solid #D1D1D1;
@@ -6329,18 +6372,20 @@ rm-emailinvoicebackground {
   padding: 10px 15px 10px 15px; }
 
 .rm-module-topbar-icon {
-  background-image: url("../images/icons/rm-reckon-icon.png") !important;
+  background-image: url("../images/icons/rm-reckon-icon.svg") !important;
   background-repeat: no-repeat;
   height: 34px;
   width: 121px;
-  margin: 6px 8px 6px 8px; }
+  margin: 6px 8px;
+  background-size: 121px 34px; }
 
 .rm-module-panel-arrow {
   background-image: url("../images/rm-popup-arrow.png") !important;
+  background-size: 43px 22px;
   background-repeat: no-repeat;
   width: 43px;
   height: 22px;
-  position: absolute;
+  position: absolute !important;
   top: -22px; }
 
 .rm-slidenav-menuitem {
@@ -6392,7 +6437,7 @@ rm-emailinvoicebackground {
   background: #FFFFFF; }
 
 .rm-swipebar {
-  background-image: url("../images/rm-swipebar.png") !important;
+  background-image: url("../images/rm-swipebar.svg") !important;
   background-position: center top;
   background-repeat: no-repeat;
   height: 2px;
@@ -6400,11 +6445,12 @@ rm-emailinvoicebackground {
   margin: 2px auto; }
 
 .rm-loginbtn {
-  background-image: url("../images/icons/rm-btn-arrow.png") !important;
+  background-image: url("../images/icons/rm-btn-arrow.svg") !important;
   background-repeat: no-repeat;
   background-position-x: 65%;
   background-position-y: 50%;
   background-color: #F0F0F0;
+  background-size: 10px 20px;
   color: #646464;
   border-radius: 0;
   border: 0;
@@ -6521,31 +6567,33 @@ rm-emailinvoicebackground {
   overflow: hidden;
   margin-left: 5px; }
 
-.rm-togglefield-on.x-field .x-input-el {
-  padding-right: 27px;
+.rm-togglefield-on .x-input-el {
+  padding-right: 25px;
   color: #646464; }
-.rm-togglefield-on.x-field .x-field .x-field-input {
+.rm-togglefield-on .x-field .x-field-input {
   padding-right: 10px; }
-.rm-togglefield-on.x-field .x-input-el {
-  background-image: url("../images/icons/rm-togglefield-on.png") !important;
+.rm-togglefield-on .x-input-el {
+  background-image: url("../images/icons/rm-togglefield-on.svg") !important;
   background-repeat: no-repeat;
   background-position: right;
+  background-size: 18px;
   position: absolute;
   right: 10px;
-  background-position-y: 40% !important; }
+  padding-bottom: 0.9em; }
 
 .rm-togglefield-off .x-input-el {
-  padding-right: 27px;
+  padding-right: 23px;
   color: #646464; }
 .rm-togglefield-off .x-field .x-field-input {
   padding-right: 10px; }
 .rm-togglefield-off .x-input-el {
-  background-image: url("../images/icons/rm-togglefield-off.png") !important;
+  background-image: url("../images/icons/rm-togglefield-off.svg") !important;
   background-repeat: no-repeat;
   background-position: right;
+  background-size: 14px;
   position: absolute;
   right: 10px;
-  background-position-y: 40% !important; }
+  padding-bottom: 0.9em; }
 
 .x-loading-spinner {
   font-size: 0% !important; }
@@ -6645,7 +6693,7 @@ rm-emailinvoicebackground {
 .x-list-pullrefresh-arrow {
   width: 100%;
   height: 41px;
-  background-image: url("../images/rm-pullarrow.png") !important;
+  background-image: url("../images/rm-pullarrow.svg") !important;
   background-size: 20px 22px;
   background-position: center center;
   -webkit-transition-property: -webkit-transform;
@@ -6714,14 +6762,16 @@ rm-emailinvoicebackground {
   overflow: hidden; }
 
 .rm-btnarrow-next {
-  background-image: url("../images/icons/rm-btn-arrow.png");
+  background-image: url("../images/icons/rm-btn-arrow.svg");
   background-position: 96%;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-size: 10px 20px; }
 
 .rm-btnarrow-prev {
-  background-image: url("../images/icons/rm-btn-back-arrow.png");
+  background-image: url("../images/icons/rm-btn-back-arrow.svg");
   background-position: 4%;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-size: 10px 20px; }
 
 .rm-approved-hearderbg {
   background: #D9F4C1;
@@ -6731,3 +6781,115 @@ rm-emailinvoicebackground {
   text-shadow: none;
   font-weight: bold;
   font-size: 80%; }
+
+.x-field-clearable .rm-field-input-formatted {
+  padding-right: 3.2em; }
+.x-field-clearable.clear-icon-hidden .x-field-input {
+  padding-right: 0 !important; }
+.x-field-clearable.clear-icon-hidden .x-field-input .x-clear-icon {
+  display: none; }
+.x-field-clearable.clear-icon-hidden .rm-field-input-formatted {
+  padding-right: 0.6em; }
+
+.rm-cursor-blinkbg .x-field-mask {
+  display: block !important;
+  background: #787878;
+  width: 2px;
+  height: 1em;
+  position: absolute;
+  top: 13px;
+  right: 7px;
+  bottom: 0;
+  padding-right: 2px;
+  left: initial !important; }
+
+.rm-keypad-topbar {
+  border-radius: 0;
+  border: 1px solid #989898;
+  margin: 0;
+  background: #3E3E3E;
+  color: #FBFBFB;
+  font-size: 0.8em;
+  padding-left: 0px;
+  padding-right: 0px; }
+.rm-keypad-topbar .x-button-label, .rm-keypad-topbar .x-badge, .rm-keypad-topbar .x-hasbadge .x-badge, .x-hasbadge .rm-keypad-topbar .x-badge {
+  font-weight: normal; }
+
+.rm-update-title {
+  color: #505050;
+  font-size: 84%;
+  text-align: center;
+  font-weight: bold; }
+
+.rm-update-msg {
+  color: #969696;
+  font-size: 72%;
+  text-align: center; }
+
+.rm-update-title {
+  color: #505050;
+  font-size: 80%;
+  text-align: center;
+  font-weight: bold; }
+
+.rm-update-msg {
+  color: #969696;
+  font-size: 76%;
+  text-align: center; }
+
+.rm-sortsearchbtn {
+  background-size: 24px; }
+
+.x-field-input .x-clear-icon {
+  background: url(../images/icons/rm-fieldclear.svg) no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+  width: 2.2em;
+  height: 2.2em;
+  margin: .5em;
+  margin-top: -0.9em;
+  right: -0.5em; }
+
+.rm-lineitemcrossbg {
+  background-size: 12px; }
+
+.rm-btniconsize {
+  background-size: 26px; }
+
+.rm-backbtniconcls {
+  background-size: 12px !important; }
+
+.rm-invoiceactioniconcls {
+  background-size: 20px; }
+
+.rm-invoiceactionbtnlabel .x-button-label, .rm-invoiceactionbtnlabel .x-badge, .rm-invoiceactionbtnlabel .x-hasbadge .x-badge, .x-hasbadge .rm-invoiceactionbtnlabel .x-badge {
+  font-weight: bold;
+  margin-left: 5px !important;
+  font-size: 90%; }
+
+.rm-photobtnfont .x-button-label, .rm-photobtnfont .x-badge, .rm-photobtnfont .x-hasbadge .x-badge, .x-hasbadge .rm-photobtnfont .x-badge {
+  font-weight: bold !important; }
+
+.rm-photobtniconsize {
+  background-size: 24px 18px; }
+
+.rm-flatfield-disabled {
+  background: white;
+  border-top: 1px solid #DBDBDB; }
+.rm-flatfield-disabled .x-form-label {
+  color: #C3C2C2;
+  background-color: inherit; }
+.rm-flatfield-disabled .x-input-el {
+  text-align: right;
+  color: #C3C2C2;
+  background-color: inherit;
+  font-size: 0.8em;
+  font-weight: bold;
+  padding-top: 0.9em;
+  padding-right: 0.6em; }
+.rm-flatfield-disabled input::-webkit-input-placeholder {
+  color: #C0C9D2;
+  font-weight: normal; }
+
+.rm-mask-obscured {
+  background: #323232; }
