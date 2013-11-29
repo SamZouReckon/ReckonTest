@@ -1,1 +1,1 @@
-["/*17a4974e19a715b3f411cf36bba9b00fed796a2c",42,585956,",hidden:true",585998,123585,"(!Ext.isDefined(this.detailsData.SaveSupport)||this.detailsData.SaveSupport)",709611,96219]
+["/*27eb959c1d8f0e0a12c8e3eea4e3f1dedc2648cd",42,585956,",hidden:true",585998,92146,"if(RM.ViewMgr.getActiveView()!==b){RM.ViewMgr.showPanel(b)}",678167,31416,"(!Ext.isDefined(this.detailsData.SaveSupport)||this.detailsData.SaveSupport)",709611,96219]
