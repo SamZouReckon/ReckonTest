@@ -1,4 +1,4 @@
-Reckon
+ReckonEdge
 ======
 
-Reckon
+The Reckon (bleeding) Edge release project
