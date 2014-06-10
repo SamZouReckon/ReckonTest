@@ -6,7 +6,7 @@
     <AppIdentifier>com.reckon.ReckonEdge</AppIdentifier>
     <ProjectName>ReckonEdge</ProjectName>
     <IsRunnable>true</IsRunnable>
-    <AndroidPermissions>android.permission.CAMERA;android.permission.READ_PHONE_STATE;android.permission.INTERNET;android.permission.ACCESS_NETWORK_STATE</AndroidPermissions>
+    <AndroidPermissions>android.permission.ACCESS_NETWORK_STATE;android.permission.CAMERA;android.permission.INTERNET;android.permission.READ_PHONE_STATE</AndroidPermissions>
     <DeviceOrientations>Portrait;Landscape</DeviceOrientations>
     <iOSStatusBarStyle>Default</iOSStatusBarStyle>
     <AndroidHardwareAcceleration>false</AndroidHardwareAcceleration>
@@ -17,8 +17,17 @@
     <iOSBackgroundMode />
     <AndroidVersionCode>1</AndroidVersionCode>
     <FrameworkVersion>3.2.0</FrameworkVersion>
-    <CorePlugins>org.apache.cordova.inappbrowser</CorePlugins>
+    <CorePlugins>org.apache.cordova.inappbrowser;org.apache.cordova.statusbar</CorePlugins>
     <DisplayName>Reckon Edge</DisplayName>
+    <Author />
+    <Description>ReckonEdge</Description>
+    <WP8Requirements />
+    <WP8Capabilities />
+    <WP8TileTitle />
+    <WP8ProductID>{3016f513-6328-46ba-aaff-2c073e3c05b5}</WP8ProductID>
+    <WP8PublisherID>{1bdbcf3c-ef90-410f-9b01-5c88071b8bcc}</WP8PublisherID>
+    <WP8Publisher />
+    <WP8SupportedResolutions />
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\Telerik\ICE\Tools\Mobile\MobileTools.targets" />
 </Project>
