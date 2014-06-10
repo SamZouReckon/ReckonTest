@@ -11,12 +11,14 @@
     <iOSStatusBarStyle>Default</iOSStatusBarStyle>
     <AndroidHardwareAcceleration>false</AndroidHardwareAcceleration>
     <BundleVersion>1.2</BundleVersion>
-    <iOSDisplayName>Reckon Edge</iOSDisplayName>
+    <iOSDisplayName>
+    </iOSDisplayName>
     <iOSDeviceFamily>1;2</iOSDeviceFamily>
     <iOSBackgroundMode />
     <AndroidVersionCode>1</AndroidVersionCode>
     <FrameworkVersion>3.2.0</FrameworkVersion>
     <CorePlugins>org.apache.cordova.inappbrowser</CorePlugins>
+    <DisplayName>Reckon Edge</DisplayName>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\Telerik\ICE\Tools\Mobile\MobileTools.targets" />
 </Project>
