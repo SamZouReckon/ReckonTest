@@ -15,7 +15,7 @@
     "Landscape"
   ],
   "iOSStatusBarStyle": "Default",
-  "AndroidHardwareAcceleration": "false",
+  "AndroidHardwareAcceleration": "true",
   "BundleVersion": "1.3",
   "iOSDisplayName": "",
   "iOSDeviceFamily": [
